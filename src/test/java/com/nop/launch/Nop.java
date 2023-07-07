@@ -1,4 +1,4 @@
-package nop.com.launch;
+package com.nop.launch;
 
 public class Nop {
 
