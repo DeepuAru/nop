@@ -36,7 +36,7 @@ package com.project.component;
 			
 				myUtil = new MyUtil(chromeBrowser);
 				
-				launchTesting();
+				//launchTesting();
 			} catch (Exception exp) {
 				exp.printStackTrace();
 			}

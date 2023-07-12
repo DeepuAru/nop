@@ -32,6 +32,21 @@
 			<class name="com.nop.launch.Languages"></class>
 		</classes>
 	</test>
+	<test name="Downloads module script">
+		<classes>
+			<class name="com.project.component.Downloads" />
+		</classes>
+	</test>
+	<test name="Partners module script">
+		<classes>
+			<class name="com.project.component.Partners" />
+		</classes>
+	</test>
+	<test name="Login module script">
+		<classes>
+			<class name="com.project.component.Login" />
+		</classes>
+	</test>
 </suite>
 
  
