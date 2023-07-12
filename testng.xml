@@ -3,14 +3,29 @@
 
 <suite name="Selinieum Automation Suite">	
 	
- 	<test name="New Project">
+ 	<!--test name="New Project">
 		<classes>
 			<class name="com.nop.launch.Nop" />
 		</classes>
-	</test>
+	</test-->
 	<test name="Launching Site Script">
 		<classes>
 			<class name="com.project.component.LaunchSite" />
+		</classes>
+	</test>
+	<test name="Downloads module script">
+		<classes>
+			<class name="com.project.component.Downloads" />
+		</classes>
+	</test>
+	<test name="Partners module script">
+		<classes>
+			<class name="com.project.component.Partners" />
+		</classes>
+	</test>
+	<test name="Login module script">
+		<classes>
+			<class name="com.project.component.Login" />
 		</classes>
 	</test>
 </suite>
