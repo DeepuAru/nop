@@ -8,9 +8,28 @@
 			<class name="com.nop.launch.Nop" />
 		</classes>
 	</test>
+	
 	<test name="Launching Site Script">
 		<classes>
-			<class name="com.project.component.LaunchSite" />
+			<class name="com.nop.launch.LaunchSite" />
+		</classes>
+	</test>
+	
+	<test name="Product">
+		<classes>
+			<class name="com.nop.launch.Products"></class>
+		</classes>
+	</test>
+	
+	<test name="support">
+		<classes>
+			<class name="com.nop.launch.SupportAndService"></class>
+		</classes>
+	</test>
+	
+	<test name="language">
+		<classes>
+			<class name="com.nop.launch.Languages"></class>
 		</classes>
 	</test>
 </suite>
