@@ -2,10 +2,13 @@ package com.nop.launch;
 
 import static com.project.services.XPathConstants.*;
 
+import org.testng.annotations.Test;
+
 import com.project.services.MyUtil;
 
 public class Languages {
 	
+	@Test
 	public void language() {
 		MyUtil.mouseHoverAndClick(LANGUAGES, ENGLISH);
 		MyUtil.mouseHoverAndClick(LANGUAGES, SPAINISH);
