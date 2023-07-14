@@ -56,5 +56,12 @@ public interface XPathConstants {
     public static final String NOP_COMM= ProjectXpaths.getXPath("NOP_COMM");
     public static final String VIEW_DEMO= ProjectXpaths.getXPath("VIEW_DEMO");
     
-   
+    public static final String GET_STARTED= ProjectXpaths.getXPath("GET_STARTED");
+    public static final String Premium_Support_Services= ProjectXpaths.getXPath("Premium_Support_Services");
+    public static final String Documentation= ProjectXpaths.getXPath("Documentation");
+    
+    
+    
+    
+    
 }
