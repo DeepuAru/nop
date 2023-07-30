@@ -29,6 +29,19 @@ public class MyUtil {
 		chromeBrowser.findElement(By.xpath(clickXpath)).click();
 	}
 	
+	public static void mouseHoverAndHoverAndClick(String mouseHoverXpath, String hoverXpath, String clickXpath) {
+		WebElement ele = chromeBrowser.findElement(By.xpath(mouseHoverXpath));
+		//Creating object of an Actions class
+		Actions action = new Actions(chromeBrowser);
+		//Performing the mouse hover action on the target element.
+		action.moveToElement(ele).perform();
+		
+		WebDriverWait wait = new WebDriverWait(chromeBrowser,10);
+		
+		mouseHoverAndClick(hoverXpath, clickXpath);
+	}
+	
+	
 	public static void myWait(String waitXpath, int secs) {
 		WebDriverWait wait = new WebDriverWait(chromeBrowser, secs);
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(waitXpath)));
